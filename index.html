@@ -21,17 +21,6 @@
 
 <body>
   <div class="app">
-    <header class="header">
-      <div class="container">
-        <div class="row row-cols-auto justify-content-end">
-          <div class="col">
-            <div class="header__logo">
-              <img alt="logo Sena" src="./assets/logo-sena.svg" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
     <section class="contenido">
       <div class="container">
         <div class="contenido__container position-relative">
@@ -42,6 +31,10 @@
               </div>
               <div class="col p-0">
                 <img class="mt-xl-5" alt="logo Sena" src="./assets/img.jpg" />
+
+                <div class="header__logo">
+                  <img alt="logo Sena" src="./assets/logo-sena.svg" />
+                </div>
               </div>
             </div>
           </div>
@@ -49,14 +42,14 @@
             <div class="row align-items-center m-0">
               <div class="col-xl-5 p-0">
                 <article class="tarjeta p-5">
-                  <div class="tarjeta__header mb-3"> Información del programa</div>
+                  <div class="tarjeta__header mb-3">Información del programa</div>
                   <div class="tarjeta__body mb-4">
                     <span class="d-block mb-2">Complementario</span>
-                    <h1>Operaciones de servicios en Contact Center y BPO</h1>
+                    <h1>Preparación de transporte de carga refrigerada</h1>
                   </div>
                   <div class="tarjeta__action">
                     <button class="boton video-btn" type="button" data-bs-toggle="modal"
-                      data-src="https://www.youtube.com/embed/Jfrjeg26Cwk" data-bs-target="#myModal">
+                      data-src="https://www.youtube.com/embed/7clc5Jk_igU" data-bs-target="#myModal">
                       <span>Reproducir video</span>
                       <img src="./assets/ico-flecha.svg" />
                     </button>
@@ -75,7 +68,7 @@
                       style="width: 50px" />
                   </div>
                   <div class="contenido__footer__item__text">
-                    <h4 class="mb-1">Código</h4><span>122708</span>
+                    <h4 class="mb-1">Código</h4><span>84920089</span>
                   </div>
                 </div>
               </div>
@@ -85,7 +78,7 @@
                       style="width: 42px" />
                   </div>
                   <div class="contenido__footer__item__text">
-                    <h4 class="mb-1">Horas</h4><span>23</span>
+                    <h4 class="mb-1">Horas</h4><span>48</span>
                   </div>
                 </div>
               </div>
@@ -94,7 +87,7 @@
                   <div class="contenido__footer__item__img me-3"><img src="./assets/ico-duracion.svg"
                       style="width: 50px" /></div>
                   <div class="contenido__footer__item__text">
-                    <h4 class="mb-1">Duración</h4><span>15 meses</span>
+                    <h4 class="mb-1">Duración</h4><span>1 mes</span>
                   </div>
                 </div>
               </div>
@@ -164,6 +157,10 @@
 
     .header__logo {
       width: 100px;
+      position: absolute;
+      top: 0;
+      right: 25px;
+      /* border: 5px solid white; */
     }
 
     .contenido {
@@ -225,7 +222,7 @@
 
     .puntos-bottom {
       width: 100%;
-      height: 80px;
+      height: 60px;
     }
 
     .puntos-middle {
